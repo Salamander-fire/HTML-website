@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HELLO WORLD</title>
+    <style type="text/css">
+      #main-header{
+        text-align:center;
+        font-size:20px;
+        background-color:grey;
+        color:white;
+        padding:22px;
+      }
+
+      #main-footer{
+        text-align:center;
+        font-size:15px;
+        background-color:grey;
+        color:white;
+        padding:15px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- paragraph-->
+
+    <header id="main-header">
+      <strong>My first html</strong>
+    </header>
+    <br>
+    <br>
+
+
+    <a href="hacker.jpg" target="_blank">
+    <img src="hacker.jpg" alt="hacker" width="300">
+    </a>
+    <ul>
+      <li><a href="https://www.defcon.org" target="_blank">Hackers</a></li>
+      <li><a href="https://www.hacker101.com/" target="_blank">hacker101</a></li>
+      <li><a href="https://2019game.picoctf.com/game" target="_blank">picoctf</a></li>
+    </ul>
+
+    <p><abbr title="ncat"><strong>nc</strong></abbr> is super nice</p>
+    <!--pre is super nice-->
+    <p>
+      The system looks through these directories in the order given and if it can't find the program produces a command not found error.<br>
+      Prepending the command with ./ effectively says "forget about the PATH, I want you to look only in the current directory.<br>
+      <br>
+    类似地，您可以通过在命令前添加相对或绝对路径来告诉系统仅查看另一个特定位置 <br>
+      <br>
+    ../ means in the parent directory eg ../hello look for hello in the parent directory.<br>
+    ./Debug/hello : "look for hello in the Debug subdirectory of my current directory.<br>
+    or /bin/ls : "look for ls in the directory /bin</p>
+  </body>
+  <br>
+  <br>
+  <br>
+  <footer id="main-footer">Copyright &copy; 2020,hacker</footer>
+</html>
